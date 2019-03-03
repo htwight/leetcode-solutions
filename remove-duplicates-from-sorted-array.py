@@ -9,8 +9,3 @@ class Solution:
                 i += 1
 
         return len(nums)
-
-lis = [0,0,1,1,1,2,2,2,2,3,3]
-s = Solution()
-print(s.removeDuplicates(lis))
-print(lis)

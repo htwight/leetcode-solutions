@@ -17,8 +17,3 @@ class Solution:
             return 0
         else:
             return -result if negative else result
-
-
-s = Solution()
-print(s.reverse(2147483641))
-print(s.reverse(6463847412))
